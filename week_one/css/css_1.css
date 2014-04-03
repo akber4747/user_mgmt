@@ -1,0 +1,26 @@
+ html {
+ 	background: black;
+ }
+ h1{
+ 	font-family: Comic Sans;
+ 	font-size: 36px;
+ 	text-align: center;
+ }
+ body{
+ 	font-family: times;
+ 	text-align: center;
+ 	color: white;
+
+ }
+ #carrol{
+ 	color: white;
+ }
+ .wotw{
+ 	color: brown;
+ }
+ ul li a{
+ 	text-decoration: none;
+ 	font-family: helvetica;
+ 	color: red;
+ 	background: black;
+ }
