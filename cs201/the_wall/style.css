@@ -1,0 +1,21 @@
+h1{
+	text-align: center;
+	display: block;
+	margin-bottom: 50px;
+}
+.form-group input{
+	border-radius: 2px;
+	border: none;
+	padding: 2px;
+	background-color: none;
+}
+.wall-post{
+	width: 800px;
+	display: block;	
+}
+.comment{
+	left: 200px;
+}
+/** {
+	border: 1px solid black;
+}*/
