@@ -1,0 +1,28 @@
+<div class="page-header">
+	<h1>USER MANAGEMENT SYSTEM (index)</h1>
+	<form action="/users/new">
+		<button class = 'btn btn-info'>ADD NEW USER</button>
+	</form>
+</div>
+
+<div class="row">
+		<table class="table table-striped table-bordered table-hover">
+			<thead>
+				<tr>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Email Address</th>
+				</tr>
+			</thead>
+			<tbody>
+					<% @user.each do |i| %>
+						<tr>
+						<td><span style="cursor:pointer"><%= i.first_name %></span></td> 
+						<td><span style="cursor:pointer"><%= i.last_name %></span></td>
+						<td><span style="cursor:pointer"><%= i.email_address %></span></td>
+						</tr>
+					<% end %>
+				
+			</tbody>
+		</table>
+</div>
